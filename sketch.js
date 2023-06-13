@@ -1,6 +1,6 @@
 
-const element = document.getElementById("username");
-element.addEventListener("change", () => {alert(element.value);});
+const element = document.getElementById("userage");
+element.addEventListener("change", () => {alert((new Date().getFullYear()) - Number(element.value));});
 
 let N = [0,1,2,3,4,5,6,7,8,9,10,11,12,13];
 
